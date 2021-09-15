@@ -74,7 +74,6 @@ public class RegistrationPage {
     public void clickFinal() {finalClick.click();}
 
 
-
     public void resultChek() {finalTableHead.shouldHave(text("Thanks for submitting the form"));}
 
     public void chekResult(String firstName, String lastName, String userEmail, String phoneNumber, String gender,
