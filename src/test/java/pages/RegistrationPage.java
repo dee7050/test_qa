@@ -89,8 +89,7 @@ public class RegistrationPage {
                                   text(hobbies),
                                   text("p002.jpg"),
                                   text(currentAddress),
-                                  text(state),
-                                  text(city)
+                                  text(state + " " + city )
              );
     }
 }
