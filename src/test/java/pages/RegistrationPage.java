@@ -47,8 +47,6 @@ public class RegistrationPage {
 
     public void setGender(String gender) {genderChose.$(byText(gender)).click();}
 
-    //public void setGender(String value) {genderChose.setValue(value).click();}
-
     public void typeNumber(String value) {
         userNumberInput.setValue(value);
     }
